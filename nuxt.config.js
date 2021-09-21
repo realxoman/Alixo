@@ -46,5 +46,9 @@ export default {
     height: '10px',
     continuous: true,
     duration: 3000
+  },
+  target: 'static',
+  router: {
+    base: '/<repository-name>/'
   }
 }
